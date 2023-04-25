@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>待办事项清单</title>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+<body>
+    <!-- 包含了一个容器，其中包含一个输入框和一个按钮用于添加任务，并且还有一个空的任务列表，用于在添加任务时显示任务。 -->
+<div class="container">
+    <span class="tag">目前任务</span>
+    <div id="newtask">
+        <input type="text" placeholder="要完成的任务..">
+        <button id="push">添加</button>
+    </div>
+
+    <div id="tasks"></div>
+</div>
+<div class="container1">
+    <span class="tag1">待办任务</span>
+    <div id="newtask1">
+        <input type="text" placeholder="代办的任务..">
+        <button id="push1">添加</button>
+    </div>
+
+    <div id="tasks1"></div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
